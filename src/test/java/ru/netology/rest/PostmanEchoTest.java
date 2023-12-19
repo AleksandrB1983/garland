@@ -18,7 +18,7 @@ public class PostmanEchoTest {
                 .when()
                 .post("/post")
                 .then()
-                .statusCode(20)
+                .statusCode(200)
                 .body("data", equalTo("some data"))
         ;
 
